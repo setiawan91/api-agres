@@ -1,5 +1,23 @@
 # api-agres
-This is an API using Laravel 9 and JWT 
+This is an API using Laravel 9 and JWT
+
+# Cara menjalankan projek
+
+1. clone repo dengan command git clone
+2. masuk ke project directory menggunakan cd api-agres
+3. install vendor/dependency => composer install
+4. jalankan migrasi tabel => php artisan migrate
+6. update file .env , sesuaikan nama database yang digunakan 
+7. jalankan php artisan serve
+8. akses view di -> http://127.0.0.1:8000/penduduk
+
+# api endpoints
+
+1. http://127.0.0.1:8000/api/register [POST] - Register
+2. http://127.0.0.1:8000/api/login [POST] - Login
+3. http://127.0.0.1:8000/api/produk [GET] - List Produk
+4. http://127.0.0.1:8000/api/produk [POST] - Add Produk
+4. http://127.0.0.1:8000/api/produk [DELETE] - Delete Produk
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
