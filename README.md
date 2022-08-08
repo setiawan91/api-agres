@@ -9,7 +9,6 @@ This is an API using Laravel 9 and JWT
 4. jalankan migrasi tabel => php artisan migrate
 6. update file .env , sesuaikan nama database yang digunakan 
 7. jalankan php artisan serve
-8. akses view di -> http://127.0.0.1:8000/penduduk
 
 # api endpoints
 
