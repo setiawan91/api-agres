@@ -10,7 +10,7 @@ This is an API using Laravel 9 and JWT
 6. update file .env , sesuaikan nama database yang digunakan 
 7. jalankan php artisan serve
 
-# api endpoints
+# API Endpoints
 
 1. http://127.0.0.1:8000/api/register [POST] - Register
 2. http://127.0.0.1:8000/api/login [POST] - Login
